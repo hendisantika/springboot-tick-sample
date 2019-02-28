@@ -51,6 +51,25 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>dockerfile-maven-plugin</artifactId>
+                <version>${version.dockerfile-maven}</version>
+                <executions>
+                    <execution>
+                        <id>default</id>
+                        <goals>
+                            <goal>build</goal>
+                            <goal>push</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <!--<configuration>-->
+                    <!--<dockerHost>tcp://192.168.99.100:2376</dockerHost>-->
+                    <!--<repository>${docker.image.prefix}/${project.artifactId}</repository>-->
+                    <!--<tag>${project.version}</tag>-->
+                <!--</configuration>-->
+            </plugin>
         </plugins>
     </build>
 
