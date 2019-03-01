@@ -41,7 +41,7 @@ services:
 
   # Define a spring service for using the tics.
   spring-tick:
-    image: guedim/spring-tick:0.0.1
+    image: hendisantika/springboot-tick-sample:0.0.1
     environment:
       INFLUXDB_URL: http://influxdb:8086
     ports:
