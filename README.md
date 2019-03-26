@@ -2,8 +2,6 @@
 
 This example uses the [TICK stack](https://www.influxdata.com/time-series-platform/)  for monitoring and alerts.
 
-This sample project is based on the post  [Spring boot metrics with tick stack](https://aboullaite.me/spring-boot-metrics-monitoring-using-tick-stack/).
-
 > This is a simple project using docker swarm mode.
 
 
@@ -58,8 +56,3 @@ http://192.168.99.100:8888/
 
 - https://micrometer.io/docs
 - https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready
-- https://aboullaite.me/spring-boot-metrics-monitoring-using-tick-stack/
-
-### License<a name="license"></a>
-----
-MIT
