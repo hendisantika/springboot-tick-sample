@@ -27,7 +27,7 @@ git clone https://github.com/hendisantika/springboot-tick-sample.git
 ```sh
 docker-compose up
 ```
-3) Go to [Chronograf](https://docs.influxdata.com/chronograf/v1.4//) portal (http://host:8888), for example:<a name="chronograf"></a>
+3) Go to [Chronograf](https://docs.influxdata.com/chronograf/v1.4//) portal (http://localhost:8888), for example:<a name="chronograf"></a>
 
 ```sh
 http://192.168.99.100:8888/
