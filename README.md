@@ -25,7 +25,7 @@ git clone https://github.com/hendisantika/springboot-tick-sample.git
 
 2) Start [TICK stack](https://www.influxdata.com/time-series-platform/)  and the spring-boot project :<a name="services"></a>
 ```sh
-docker-componse up
+docker-compose up
 ```
 3) Go to [Chronograf](https://docs.influxdata.com/chronograf/v1.4//) portal (http://host:8888), for example:<a name="chronograf"></a>
 
