@@ -18,10 +18,9 @@ This example uses the [TICK stack](https://www.influxdata.com/time-series-platfo
 
 ### Configuration<a name="configuration"></a>
 
-1) Download the [project](https://github.com/hendisantika/springboot-tick-sample.git) and go into the spring-tick  folder:<a name="download"></a>
+1) Clone the [project](https://github.com/hendisantika/springboot-tick-sample.git) and go into the spring-tick  folder:<a name="download"></a>
 ```sh
-wget https://github.com/guedim/spring-projects.git/
-cd spring-projects\spring-tick
+git clone https://github.com/hendisantika/springboot-tick-sample.git
 ```
 
 2) Start [TICK stack](https://www.influxdata.com/time-series-platform/)  and the spring-boot project :<a name="services"></a>
