@@ -16,7 +16,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <docker.image.prefix>guedim</docker.image.prefix>
+        <docker.image.prefix>hendisantika</docker.image.prefix>
         <version.dockerfile-maven>1.3.4</version.dockerfile-maven>
     </properties>
 
