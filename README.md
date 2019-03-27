@@ -42,7 +42,7 @@ http://192.168.99.100:8888/
 - Metrics for JVM 
 - Metrics for spring project:
 
-![end](https://github.com/guedim/spring-projects/blob/master/spring-tick/src/main/resources/static/sample-dashboard.png "Sample dashboards")
+![end](img/sample-dashboard.png "Sample dashboards")
 
 
 
